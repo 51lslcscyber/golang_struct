@@ -9,7 +9,9 @@ Time:2022/4/5 10:30
 */
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type boby struct {
 	id   int
