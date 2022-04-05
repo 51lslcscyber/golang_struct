@@ -1,0 +1,13 @@
+/*
+author:鹄思鹄想_bit森
+Time:2022/4/4 20:08
+*/
+
+/*
+重构go语言包,影响调试运行，必要时可删去
+*/
+package main
+
+func main() {
+	print("hello ,world!")
+}
