@@ -31,7 +31,7 @@ func statisticChars(str string) (charCount, numCount, spcaeCount, otherCount int
 }
 
 func main() {
-	str := "abcdefg   23456hh99  uwq你好##"
+	str := "new dream   23456hh99 521  你好lsl## cheer up"
 	charCount, numCount, spcaeCount, otherCount := statisticChars(str)
 	fmt.Printf("charCount:%d  numCount:%d  spcaeCount:%d  otherCount:%d", charCount, numCount, spcaeCount, otherCount)
 }
