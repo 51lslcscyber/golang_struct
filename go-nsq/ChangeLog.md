@@ -148,6 +148,7 @@ Specifically:
 As part of the refactoring, a few additional clean exit related 
 issues were resolved:
 
+
  * wait group now includes all exit related goroutines
  * ensure that readLoop exits before exiting cleanup
  * always check messagesInFlight at readLoop exit
