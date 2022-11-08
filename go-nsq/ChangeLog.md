@@ -269,7 +269,7 @@ binaries to `0.2.16-rc.1` they will not be able to send the optional custom iden
 
 ### 0.2.3 - 2012-10-11
 
-* # 64 timeouts on reader queries to lookupd
+* # 64 timeouts on reader queries to lookup
 * # 54 fix crash issue with reader cleaning up from unexpectedly closed nsqd connections
 
 ### 0.2.2 - 2012-10-09
