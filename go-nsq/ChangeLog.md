@@ -93,7 +93,7 @@ Thanks to @judwhite, @vitaliytv, and @HaraldNordgren for contributing to testing
 * # 93 - expose a way to get `Consumer` runtime stats (thanks @dcarney)
 * # 94 - allow `#ephemeral` topic names (thanks @jamesgroat)
 
-### 1.0.1 - 2014-11-09
+### 1.0.1
 
 **Upgrading from 1.0.0**: There are no backward incompatible changes functionally, however this release no longer
 compiles with Go `1.0.x`.
@@ -170,7 +170,7 @@ Bug Fixes:
 * # 24 - fix racey reader IDENTIFY buffering
 * # 29 - fix recursive RLock deadlocks
 
-### 0.3.4 - 2013-11-19
+### 0.3.4
 
 **Upgrading from 0.3.3**: There are no backward incompatible changes.
 
@@ -188,7 +188,7 @@ Bug Fixes:
 * # 17 - resolve potential deadlocks on `Message` responders
 * # 16 - eliminate busy loop when draining `finishedMessages`
 
-### 0.3.3 - 2013-10-21
+### 0.3.3
 
 **Upgrading from 0.3.2**: This release requires NSQ binary version `0.2.23+` for compression support.
 
@@ -244,7 +244,7 @@ Bug Fixes:
 * # 127 - send IDENTIFY (missed in #90)
 * # 16 - add backoff to Reader
 
-### 0.3.0 - 2013-01-07
+### 0.3.0
 
 **Upgrading from 0.2.4**: There are no backward incompatible changes to applications written against the
 public `nsq.Reader` API.
@@ -267,7 +267,7 @@ binaries to `0.2.16-rc.1` they will not be able to send the optional custom iden
 
 * # 69 added IsStarved() to reader API
 
-### 0.2.3 - 2012-10-11
+### 0.2.3
 
 * # 64 timeouts on reader queries to lookup
 * # 54 fix crash issue with reader cleaning up from unexpectedly closed nsqd connections
